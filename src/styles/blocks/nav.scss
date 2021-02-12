@@ -10,6 +10,7 @@
 
   &__item {
     margin-right: 20px;
+
     &:last-of-type {
       margin-right: 0;
     }
@@ -37,6 +38,7 @@
 .is-active {
   color: $hoverColor;
   position: relative;
+
   &::after {
     content: "";
     position: absolute;
