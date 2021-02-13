@@ -1,19 +1,10 @@
 .nav {
   &__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(auto-fit, auto);
+    column-gap: 20px;
     list-style: none;
-    margin: 0;
-    padding-left: 0;
-    height: 100%;
-    align-items: center;
-  }
-
-  &__item {
-    margin-right: 20px;
-
-    &:last-of-type {
-      margin-right: 0;
-    }
   }
 
   &__link {

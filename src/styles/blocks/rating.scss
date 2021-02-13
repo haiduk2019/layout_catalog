@@ -1,5 +1,7 @@
 .rating {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(auto-fit, auto);
   align-items: center;
   justify-content: space-between;
 
