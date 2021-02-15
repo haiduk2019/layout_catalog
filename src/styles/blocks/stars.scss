@@ -1,18 +1,15 @@
 .stars {
-  display: flex;
+  display: grid;
   list-style: none;
+  grid-template-columns: repeat(5, auto);
+  column-gap: 4px;
 
   &__item {
     width: 15px;
     height: 15px;
     background-image: url("../images/star.svg");
     background-repeat: no-repeat;
-    margin-right: 4px;
     background-position: center;
-
-    &:last-of-type {
-      margin-right: 0;
-    }
   }
 }
 
