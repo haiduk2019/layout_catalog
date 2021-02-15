@@ -12,7 +12,7 @@
     margin-bottom: 30px;
     padding-top: 12px;
     padding-bottom: 12px;
-    transition: transform 1s ease, border-color 1s ease;
+    transition: transform 1s, border-color 300ms;
     object-fit: contain;
     box-sizing: border-box;
     border: 3px solid transparent;
@@ -60,7 +60,7 @@
     padding-left: 12px;
     padding-right: 12px;
     border: 1px solid transparent;
-    transition: color 1s ease, background-color 1s ease, border-color 1s ease;
+    transition: color 300ms, background-color 300ms, border-color 300ms;
 
     &:hover {
       color: $hoverColor;

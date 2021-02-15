@@ -16,7 +16,7 @@
     text-transform: uppercase;
     color: $mainTextColor;
     padding: 23px 0;
-    transition: color 1s ease;
+    transition: color 300ms;
     cursor: auto;
 
     &[href]:hover {
