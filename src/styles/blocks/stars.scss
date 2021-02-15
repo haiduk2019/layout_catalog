@@ -2,7 +2,6 @@
   display: grid;
   list-style: none;
   grid-template-columns: repeat(5, auto);
-  grid-template-rows: repeat(auto-fit, auto);
   column-gap: 4px;
 
   &__item {

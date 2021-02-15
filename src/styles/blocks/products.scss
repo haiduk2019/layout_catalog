@@ -2,7 +2,6 @@
   &__wrapper {
     display: grid;
     grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(auto-fit, auto);
     row-gap: 50px;
     column-gap: 48px;
     justify-content: center;
